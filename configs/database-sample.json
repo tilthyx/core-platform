@@ -1,0 +1,24 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5001,
+    "user": "origin-db",
+    "password": "root",
+    "db": "nba",
+    "dataset_destiny": "nba",
+    "tables": [
+      {
+        "table": "players"
+      },
+      {
+        "table": "players_draft"
+      },
+      {
+        "table": "team_details"
+      },
+      {
+        "table": "teams"
+      }
+    ]
+  }
+}
