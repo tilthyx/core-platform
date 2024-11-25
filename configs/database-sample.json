@@ -1,24 +1,29 @@
 {
-  "database": {
-    "host": "localhost",
-    "port": 5001,
-    "user": "origin-db",
-    "password": "root",
-    "db": "nba",
-    "dataset_destiny": "nba",
-    "tables": [
-      {
-        "table": "players"
-      },
-      {
-        "table": "players_draft"
-      },
-      {
-        "table": "team_details"
-      },
-      {
-        "table": "teams"
-      }
-    ]
+  "connection": {
+    "database_host": "localhost",
+    "database_port": 5001,
+    "database_user": "origin-db",
+    "database_password": "root",
+    "database_schema": "nba"
+  },
+  "tables": [
+    {
+      "table": "players"
+    },
+    {
+      "table": "players_draft"
+    },
+    {
+      "table": "team_details"
+    },
+    {
+      "table": "teams"
+    }
+  ],
+  "dataset": {
+    "origin_type": "Database",
+    "dataset_name": "nba",
+    "dataset_module": "nba",
+    "dataset_description": "NBA Players Dataset"
   }
 }
